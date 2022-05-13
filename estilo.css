@@ -1,0 +1,144 @@
+@keyframes animacao-body {
+	from {
+		
+	}
+
+	to {
+		
+	}
+}
+
+body {
+	background: radial-gradient(circle, purple, indigo);
+	animation-name: animacao-body;
+	animation-duration: 10s; 
+	animation-delay: 0s;
+	animation-iteration-count: 1000;
+	animation-direction: alternate;
+}
+
+#container {
+	width: 280px;
+	margin: 40px auto;
+	border: 2px solid black;
+	border-image: linear-gradient(to right, red, orange) 100;
+	padding: 20px;
+	border-radius: 10px;
+
+}
+
+#imagem {
+	width: 80px;
+	margin: 20px auto;
+}
+
+h2 {
+	text-align: center;
+	color: orangered;
+	font-family: Arial;
+
+}
+
+#span {
+	width: 270px;
+	height: 30px;
+	border: 1px solid lightcoral;
+	border-image: linear-gradient(to right, red, orange) 100;
+	margin: 0 auto;
+	background: none;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 10px;
+}
+
+span {
+	padding: 4px;
+	color: orangered;
+	font-family: Arial;
+}
+
+legend {
+	text-align: center;
+	font-family: Arial;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: orangered;
+}
+
+fieldset {
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border: 1px solid orange;
+	border-image: linear-gradient(to right, red, orange) 100;
+	border-radius: 10px;
+}
+
+input {
+	margin-top: 20px;
+	text-align: center;
+	border: 1px solid orangered;
+	border-radius: 8px;
+	background: none;
+	color: white;
+}
+
+#botao {
+	margin: 20px auto;
+	margin-top: 40px;
+	width: 100px;
+	padding: 10px;
+	border-radius: 40px;
+	background: orangered;
+}
+
+#botao:hover {
+	background: white;
+	border: 1px solid white;
+	color: orangered;
+}
+
+#pai {
+	height: 80px;
+	text-align: center;
+}
+
+.resposta {
+	color: #00C853;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.resposta2 {
+	color: red;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.img-resposta {
+	margin: 0px auto;
+}
+
+#rodape {
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	font-family: Arial;
+	color: orangered;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: orangered;
+}
